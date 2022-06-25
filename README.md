@@ -12,6 +12,7 @@ Simple linux shell using C programming language.
     - [Download](#Download)
     - [Compilation](#Compilation)
     - [Running](#Running)
+- [Features](#Features)
 
 ## Introduction
 ### What is Shell
@@ -56,5 +57,19 @@ after comilation phase type `./shell` and the shell will run.
 ```
 mohamed@mohamed:~/Desktop/shell$ ./shell
 ```
+
+## Features
+- The shell is detecting the user's name and the pc name and print them colored like the original shell
+![image](https://drive.google.com/uc?export=view&id=1-vklIZbIwvuJttR0ozUCHHlENWttvBzc)
+- It can handle background commands by typing `&` after the command
+```
+mohamed@mohamed:/home/mohamed/Desktop/shell$ ls -h -l &
+mohamed@mohamed:/home/mohamed/Desktop/shell$ total 40K
+-rw-r--r-- 1 mohamed mohamed   0 يون 25 16:50 log.txt
+-rw-rw-r-- 1 mohamed mohamed 13K مار 24 23:41 main.c
+-rw-rw-r-- 1 mohamed mohamed  25 يون 25 14:17 Makefile
+-rwxrwxr-x 1 mohamed mohamed 19K يون 25 16:50 shell
+```
+then after the background command is finished it will write `Background Child Terminated` in `log.txt` file
 
 
