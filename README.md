@@ -57,6 +57,9 @@ after comilation phase type `./shell` and the shell will run.
 ```
 mohamed@mohamed:~/Desktop/shell$ ./shell
 ```
+and the files in the folder should be like
+
+![image](https://drive.google.com/uc?export=view&id=1kVPEJcrWf4XFTwMZvG4F51X8cVhd9WQB)
 
 ## Features
 - The shell is detecting the user's name and the pc name and print them colored like the original shell
