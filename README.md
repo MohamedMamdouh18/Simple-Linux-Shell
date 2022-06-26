@@ -44,7 +44,10 @@ This consists of interpreting orders. It incorporates features such as process c
 
 ## User Manual
 ### Download
-You can clone this repository this way: git clone https://github.com/MohamedMamdouh18/Simple-Linux-Shell.git
+You can clone this repository this way: 
+```
+git clone https://github.com/MohamedMamdouh18/Simple-Linux-Shell.git
+```
 ### Compilation
 - by typing `gcc -o shell main.c` in your command line
 - or by typing `make` and the `Makefile` file will do rest the work.
